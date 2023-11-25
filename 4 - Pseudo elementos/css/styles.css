@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: #111;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  display: flex;
+  align-items: center;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  width: 100px;
+  height: 4px;
+  background-color: salmon;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  width: 100px;
+  height: 4px;
+  background-color: salmon;
+}
+
+.input::after {
+  content: 'asdasdsad';
+}

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.box {
+  height: 200px;
+  background-color: salmon;
+}
+
+.text {
+  margin-top: 3rem;
+}

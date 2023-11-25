@@ -1,0 +1,39 @@
+/* BEM */
+
+/* Bloque -> Cualquier elemento independiente */
+/* Elemento -> Cualquier elemento que dependa de un bloque. Los elementos se nombran con nombre-del-bloque__nombre-del-elemento */
+/* Modificador -> Cualquier elemento con un estilo modificado. Los modificadores se nombran con nombre--modificador */
+
+body {
+  background-color: #111;
+  font-family: sans-serif;
+}
+
+.card {
+  border: 1px solid white;
+  background-color: rgb(81, 185, 255);
+  padding: 1rem;
+  text-align: center;
+}
+
+.card--special {
+  background-color: limegreen;
+}
+
+.card__title {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(153, 0, 255);
+}
+
+.card__title--red {
+  color: rgb(255, 255, 255);
+}
+
+.card__title--big {
+  font-size: 2.5rem;
+}
+
+.card__text {
+  color: white;
+}

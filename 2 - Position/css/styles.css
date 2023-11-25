@@ -1,0 +1,38 @@
+/*
+ Position
+  static
+  relative
+  absolute
+  fixed
+  sticky
+
+*/
+
+body {
+  margin: 0;
+  background-color: #111;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  background-color: salmon;
+}
+
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1rem;
+  border: 5px solid salmon;
+}
+
+.span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  color: #111;
+  background-color: skyblue;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-color: #111;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: steelblue;
+  box-shadow: 3px 3px 0 10px rgba(255, 0, 0);
+}
+
+/* box-shadow: (inset) offsetX offsetY blur spread color */

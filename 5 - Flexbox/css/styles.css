@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #111;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  height: 300px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: blue red white green;
+}
+
+.button {
+  width: 200px;
+  /* margin-top: auto;
+  margin-left: auto;
+  margin-bottom: 2rem; */
+  margin: auto 0 2rem auto;
+}
