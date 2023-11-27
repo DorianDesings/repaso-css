@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #111;
+  color: aliceblue;
+  font-family: sans-serif;
+  user-select: none;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: orange;
+}
+
+.input {
+  display: none;
+}
+
+.input:checked + .label::before {
+  background-image: url(../assets/images/check.png);
+  outline: none;
+}
+
+.label {
+  position: relative;
+  padding-left: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.label::before {
+  content: '';
+  position: absolute;
+  left: -0.5rem;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  outline: 1px solid #111;
+  outline-offset: -1px;
+}

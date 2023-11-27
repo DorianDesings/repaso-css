@@ -25,8 +25,5 @@ img {
 
 .button {
   width: 200px;
-  /* margin-top: auto;
-  margin-left: auto;
-  margin-bottom: 2rem; */
   margin: auto 0 2rem auto;
 }
